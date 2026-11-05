@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="3DTrcek logo">
+<title>3DTrcek logo</title>
+<style>
+text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.fade { opacity: 0; animation: fadeUp .8s ease-out forwards; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .9; } }
+@keyframes dash { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
+}
+.loa { opacity: 0; animation: loak .9s cubic-bezier(.2,.8,.2,1) 0.15s forwards; }@keyframes loak { from { opacity: 0; transform: translate(0px,-40px); } to { opacity: 1; transform: translate(0,0); } }.lob { opacity: 0; animation: lobk .9s cubic-bezier(.2,.8,.2,1) 0.27s forwards; }@keyframes lobk { from { opacity: 0; transform: translate(40px,0px); } to { opacity: 1; transform: translate(0,0); } }.loc { opacity: 0; animation: lock .9s cubic-bezier(.2,.8,.2,1) 0.39s forwards; }@keyframes lock { from { opacity: 0; transform: translate(0px,40px); } to { opacity: 1; transform: translate(0,0); } }.lod { opacity: 0; animation: lodk .9s cubic-bezier(.2,.8,.2,1) 0.51s forwards; }@keyframes lodk { from { opacity: 0; transform: translate(-40px,0px); } to { opacity: 1; transform: translate(0,0); } }.lodia { transform-box: fill-box; transform-origin: center; opacity: 0; animation: lopop .6s cubic-bezier(.3,1.6,.5,1) .75s forwards; }@keyframes lopop { from { opacity: 0; transform: scale(0); } to { opacity: 1; transform: scale(1); } }.lohalo { animation: glow 3.2s ease-in-out 1.2s infinite; }</style>
+
+<defs>
+  <clipPath id="loclip"><circle r="79"/></clipPath>
+  <filter id="loblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<g transform="translate(120 120) scale(1.1)">
+  <circle class="lohalo" r="98" fill="none" stroke="#2b8ef0" stroke-width="10" filter="url(#loblur)" opacity=".5"/>
+  <circle r="96" fill="#0a0c0f" stroke="#2b8ef0" stroke-width="9"/>
+  <circle r="86" fill="none" stroke="#000" stroke-opacity=".6" stroke-width="3"/>
+  <g transform="rotate(-45)">
+    <g clip-path="url(#loclip)"><rect class="loa" x="-21" y="-100" width="121" height="68" fill="#9ea3a8"/><rect class="lob" x="32" y="-21" width="68" height="121" fill="#12aee8"/><rect class="loc" x="-100" y="32" width="121" height="68" fill="#0ea6e4"/><rect class="lod" x="-100" y="-100" width="68" height="121" fill="#7cccf7"/></g>
+    <rect class="lodia" x="-21" y="-21" width="42" height="42" fill="#f4f6f8"/>
+  </g>
+</g>
+</svg>
