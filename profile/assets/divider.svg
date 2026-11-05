@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-label="divider">
+<title>divider</title>
+<style>
+text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.fade { opacity: 0; animation: fadeUp .8s ease-out forwards; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .9; } }
+@keyframes dash { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
+}
+
+.fil { stroke-dasharray: 60 900; animation: run 4s linear infinite; }
+@keyframes run { from { stroke-dashoffset: 960; } to { stroke-dashoffset: 0; } }
+</style>
+
+<line x1="40" y1="18" x2="1160" y2="18" stroke="#262c35" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+<line class="fil" x1="40" y1="18" x2="1160" y2="18" stroke="#12aee8" stroke-width="4" stroke-linecap="round"/>
+<g transform="translate(600.0 18) rotate(45)"><rect x="-7" y="-7" width="14" height="14" fill="#f4f6f8"/></g>
+
+</svg>

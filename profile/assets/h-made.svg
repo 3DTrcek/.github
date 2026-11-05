@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="From granulate to your printer">
+<title>From granulate to your printer</title>
+<style>
+text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.fade { opacity: 0; animation: fadeUp .8s ease-out forwards; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .9; } }
+@keyframes dash { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
+}
+.hd { animation-delay: .1s; } .hs { animation-delay: .3s; } .ic { transform-box: fill-box; transform-origin: center; animation: spin 10s linear infinite; } @keyframes spin { to { transform: rotate(360deg); } }</style>
+
+<g transform="translate(40 40)"><circle r="28" fill="#181c22" stroke="#262c35"/><g><path d="M-16 12 v-14 l8 -6 v6 l8 -6 v6 l8 -6 v20 z" fill="none" stroke="#12aee8" stroke-width="3" stroke-linejoin="round"/><rect x="10" y="-16" width="6" height="14" fill="#f4f6f8"/></g></g>
+<g class="fade hd"><text x="90" y="38" fill="#f4f6f8" font-size="30" font-weight="700">From granulate to your printer</text></g>
+<g class="fade hs"><text x="91" y="64" fill="#93a0b0" font-size="17">Every step happens under one roof in Ljubljana</text></g>
+
+</svg>
