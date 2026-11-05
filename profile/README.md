@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://3dtrcek.com"><img src="assets/hero.svg" width="100%" alt="3DTrček – European 3D printing filament, compounded, extruded and spooled in-house in Ljubljana, Slovenia"/></a>
+<a href="https://3dtrcek.com"><img src="assets/hero.svg" width="100%" alt="3DTrcek – European 3D printing filament, compounded, extruded and spooled in-house in Ljubljana, Slovenia"/></a>
 
 <br/>
 
@@ -18,7 +18,7 @@
 
 <img src="assets/h-about.svg" width="100%" alt="About us"/>
 
-**3DTrček** is the 3D printing brand of **Plastika Trček**, a family-run polymer processing company from Ljubljana, Slovenia, with more than 55 years of experience in plastics.
+**3DTrcek** is the 3D printing brand of **Plastika Trček**, a family-run polymer processing company from Ljubljana, Slovenia, with more than 55 years of experience in plastics.
 
 We don't rebrand someone else's spools. We compound the material, extrude it, spool it and check it ourselves — so we know exactly what goes into every kilogram, and we can keep it consistent from one order to the next.
 
